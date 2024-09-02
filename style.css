@@ -22,15 +22,19 @@ body{
     background-color: white;
     border-radius: 15px;
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.347);
-    
+
+        
     height: 50%;
     width: 960px;
+    
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     position: relative;
+
+    
 }
 
 .content::before{
@@ -41,6 +45,11 @@ body{
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+
+    
+
+   
+    
 }
 
 .title-primary{
@@ -98,6 +107,7 @@ body{
 
 .first-content{
     display: flex;
+    
 }
 
 .first-column{
@@ -106,6 +116,8 @@ body{
     flex: 2;
     z-index: 10;
     align-items: center;
+
+    
 }
 
 .second-column{
@@ -144,8 +156,12 @@ body{
     border: none;
     background-color: #ecf0f1;
     margin: 8px;
+
+    
 }
 .second-content{
     position: absolute;
     display: none;
+    
 }
+
