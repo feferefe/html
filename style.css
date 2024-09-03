@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
 body{
     font-family: "Open Sans", sans-serif;
 }
@@ -46,10 +47,7 @@ body{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 
-    
-
-   
-    
+    /*left: 60%;*/
 }
 
 .title-primary{
@@ -57,17 +55,28 @@ body{
     font-size: 28px;
     font-weight: bold;
     text-transform: capitalize;
+    text-align: center;
 }
 .title-secundary{
+    margin-top: 5px;
     color: blueviolet;
 }
 
 .description{
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 15pxpx;
     font-weight: 300px;
     line-height: 30px;
     text-align: center;
     
+}
+
+.description-secundary{
+    color: #717171;
+    font-size: 15pxpx;
+    font-weight: 300px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .btn{
@@ -86,12 +95,16 @@ body{
     color: white;
     background-color: transparent;
     border: 1px solid white;
+
+    margin: 15px;
 }
  
 .btn-secundary{
     color: blueviolet;
     background-color: transparent;
     border: 1px solid blueviolet;
+
+    margin: 15px;
 }
 .btn-primary:hover{
     background-color: white;
@@ -107,8 +120,8 @@ body{
 
 .first-content{
     display: flex;
-    
 }
+
 
 .first-column{
     text-align: center;
@@ -127,37 +140,68 @@ body{
     align-items: center;
 }
 
+.first-content .first-column{
+    order: 1;
+}
+
+.first-content .second-column{
+    order: 2;
+}
 
 .list-social-media{
     display: flex;
     list-style-type: none;
 }
+
 .item-social-media a{
-    color: #bdc3c7;
+    color: #d1d3d3;
+}
+
+.item-social-media a:hover{
+    color: #fff;
+    color: #ffffff;
+}
+
+.item-social-media:hover{
+    background-color: blueviolet;
+    transition: 0.3s;
 }
 
 .item-social-media{
+    margin-top: 15px;
     border: 1px solid #bdc3c7;
     border-radius: 50%;
     width: 35px;
     height: 35px;
     line-height: 35px;
     text-align: center;
+    
 }
 .form{
     display: flex;
     flex-direction: column;
     width: 55%;
+    margin-top: 0px;
 
 }
 
 .form input{
+    margin-top: 0px;
     height: 45px;
     border: none;
     background-color: #ecf0f1;
-    margin: 8px;
+    width: 100%;
+
 
     
+}
+
+.icone-form{
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    padding-left: 4px;
 }
 .second-content{
     position: absolute;
@@ -165,3 +209,20 @@ body{
     
 }
 
+/*
+.second-content .first-column{
+    order: 2;
+}
+
+.second-content .second-column{
+    order: 1;
+}
+
+.second-column .esqueceu-senha{
+    size: 10px;
+    text-decoration: unset;
+    text-align: center;
+    color: blueviolet;
+    size: 10px;
+}
+*/
