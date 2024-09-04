@@ -47,7 +47,8 @@ body{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 
-    /*left: 60%;*/
+    left: 60%;
+
 }
 
 .title-primary{
@@ -119,7 +120,7 @@ body{
 }
 
 .first-content{
-    display: flex;
+    display: none;
 }
 
 
@@ -205,7 +206,7 @@ body{
 }
 .second-content{
     position: absolute;
-    display: none;
+    display: flex;
     
 }
 
@@ -224,5 +225,4 @@ body{
     text-align: center;
     color: blueviolet;
     size: 10px;
-}
-*/
+}*/
